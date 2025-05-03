@@ -1,0 +1,31 @@
+name: Git Flow Branch Naming
+
+on:
+  create:
+    branches:
+      - '**'
+
+jobs:
+  check-branch-name:
+    runs-on: ubuntu-latest
+    if: github.ref_type == 'branch'
+    steps:
+      - name: Validate branch name
+        run: |
+          BRANCH_NAME="${GITHUB_REF#refs/heads/}"
+
+          echo "Created branch: $BRANCH_NAME"
+
+          # Git Flow allowed branches
+          if [[ "$BRANCH_NAME" == "develop" || "$BRANCH_NAME" == "main" ]]; then
+            echo "✅ Valid branch: $BRANCH_NAME"
+            exit 0
+          fi
+
+          if [[ "$BRANCH_NAME" =~ ^(feature|release|hotfix)/.+$ ]]; then
+            echo "✅ Valid Git Flow branch: $BRANCH_NAME"
+            exit 0
+          fi
+
+          echo "❌ Invalid branch name: '$BRANCH_NAME'. Must follow Git Flow (e.g. feature/*, release/*)."
+          exit 1
