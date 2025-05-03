@@ -1,0 +1,66 @@
+# Text
+https://www.mdpi.com/2227-7390/9/21/2829
+https://link.springer.com/article/10.1007/s11042-024-19272-y
+https://link.springer.com/chapter/10.1007/978-981-33-4673-4_38?fromPaywallRec=true
+https://link.springer.com/chapter/10.1007/978-981-16-6963-7_82?fromPaywallRec=true
+https://link.springer.com/article/10.1007/s13369-025-10070-8?fromPaywallRec=true
+https://link.springer.com/chapter/10.1007/978-3-319-99007-1_49?fromPaywallRec=true
+https://ieeexplore.ieee.org/document/8085643
+https://www.researchgate.net/figure/Different-types-of-text-steganography_fig2_343017390
+https://link.springer.com/article/10.1007/s11042-024-19272-y
+https://www.igi-global.com/chapter/advances-in-text-steganography-theory-and-research/279997
+https://www.sciencedirect.com/science/article/pii/S2212017313004970
+https://crypto.stackexchange.com/questions/6058/any-efficient-text-based-steganographic-schemes/24863#24863
+
+## Format Based Methods
+
+## Random and Statistical Generation
+
+## Linguistic Steganography
+
+- Acrostic text
+- One letter per sentence (George et Alfred)
+- One letter per sentence with password (https://daniellerch.me/stego/text/chatgpt-en/)
+- Ponctuation
+- Code DTMF
+- Code T9
+- Twitter secret messages
+- https://github.com/rw/plainsight
+- https://github.com/geezee/steg/tree/master
+- https://github.com/daniellerch/stego-retweet
+- Unicode Text Steganography
+- Aitsteg / https://github.com/sakship31/Text-steganography
+- AH4S : https://onlinelibrary.wiley.com/doi/epdf/10.1002/sec.1752
+- Spammimic https://www.spammimic.com/explain.shtml
+  Encode as spam
+  Encode as spam with a password
+  Encode as fake PGP
+  Encode as fake Russian
+  Encode as space 
+- National Geographic video on YouTube regarding the Aryan Brotherhood 
+- Snow : https://darkside.com.au/snow/
+- https://www.perlmonks.com/?node_id=877696
+  https://www.perlmonks.com/?node_id=149675
+- https://github.com/mjethani/typo
+- https://github.com/geezee/steg
+- whitespace characters (spaces, tabs, line breaks) of a text document or hiding information by using different fonts, font sizes, or text styles (bold, italic, underline) 
+- https://arxiv.org/pdf/1302.2718
+- Capital / Lower
+- https://pure.ulster.ac.uk/ws/portalfiles/portal/11638661/Text%20Based%20Steganography%20-%20IJPSI%20Pre-Print.pdf
+- HTML web page https://www.researchgate.net/publication/374701737_Text_Steganography_Techniques_A_Review
+- Semantic hiding
+
+
+Image:
+
+
+Video:
+
+
+Son:
+
+
+Autres:
+PDF
+bin (duality)
+ppm
